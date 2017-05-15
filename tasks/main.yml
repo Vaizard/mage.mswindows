@@ -1,17 +1,13 @@
 ---
-win_packages:
- - totalcommander
- - freerdp
 
 - name: "Making sure packages are present"
   win_chocolatey:
-    name: {{ item }}
+    name: "{{ item }}"
     state: present
   with_items: "{{ win_packages }}"
-  
-- name: "Updating all packages"
-  win_chocolatey:
-    name: all
-    state: latest
-    
-  
+
+# TODO: uncomment this when update all works
+#- name: "Updating all packages"
+#  win_chocolatey:
+#    name: all
+#    state: latest
