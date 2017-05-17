@@ -1,0 +1,10 @@
+win_packages:
+  - totalcommander
+  - freerdp
+  - firefox
+  - adobereader
+  - vlc
+  - putty
+  - procexp
+  - emclient
+  - duplicati
