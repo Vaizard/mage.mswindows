@@ -1,6 +1,5 @@
 win_packages:
   - totalcommander
-  - freerdp
   - firefox
   - adobereader
   - vlc
